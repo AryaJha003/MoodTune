@@ -2,25 +2,21 @@
 
 ## AI-Powered Mood Detection and Music Recommendation
 
-MoodTune is a web application that recommends songs according to the mood of the user.
+MoodTune is a web application that recommends songs based on the mood of the user.
 
-The main idea behind this project is simple. Instead of searching for a song or playlist manually, the user can just type how they are feeling. MoodTune reads the text, predicts the emotion, and then suggests songs that are suitable for that mood.
+The idea behind this project is simple. Instead of searching for a song or playlist manually, the user can type how they are feeling in normal text. MoodTune analyses the text, predicts the emotion and then recommends songs that match the detected mood.
 
-The application also allows the user to select a language and a music style so that the recommendations can be more specific.
+The application also allows the user to select a preferred language and music style so that the recommendations can be more specific.
 
 ---
 
 ## Why I Made This Project
 
-Many times, we want to listen to music according to our mood, but we may not know exactly what song or playlist to search for.
+Music is often connected with how we feel. Sometimes we want to listen to happy music, sometimes something calm, and sometimes music that matches a particular feeling.
 
-For example, if someone types:
+Finding suitable songs manually can take time. I wanted to build a system where the user could simply describe their mood and get some music recommendations based on it.
 
-> I am feeling happy and energetic today.
-
-the system should understand the mood and suggest songs that have characteristics suitable for that feeling.
-
-This project was made to combine NLP, Machine Learning and a music recommendation system into one web application.
+This project also gave me an opportunity to use Natural Language Processing, Machine Learning and a recommendation system together in one web application.
 
 ---
 
@@ -36,7 +32,7 @@ The main objectives of MoodTune are:
 - Support English and different Indian languages.
 - Allow the user to select a music style.
 - Use song audio features for recommendation.
-- Show the top recommended songs in a simple web interface.
+- Display the top five recommendations in a simple web interface.
 
 ---
 
@@ -55,7 +51,7 @@ Linear SVM predicts the emotion
           ↓
 Mood profile is selected
           ↓
-Songs are filtered by language/style
+Songs are filtered by language and style
           ↓
 Audio features are compared
           ↓
