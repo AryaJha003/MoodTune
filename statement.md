@@ -73,7 +73,9 @@ Artist diversity is also considered while selecting the final recommendations.
 
 ## Expected Outcome
 
-The expected outcome is a working web application where a user can describe their mood, select music preferences and receive a small list of songs that are suitable for their detected mood.
+## Outcome
+
+The completed project is a working web application where a user can describe their mood, select music preferences and receive a list of songs suitable for their detected mood.
 
 ## Project Scope
 
